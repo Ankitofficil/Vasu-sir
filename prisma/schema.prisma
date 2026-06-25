@@ -1,22 +1,26 @@
 // Prisma schema for Vasusir Accountancy coaching platform.
 //
-// NOTE on SQLite (dev DB): SQLite does not support Prisma scalar list fields
-// (`String[]`) OR native enums. Adaptations vs. the original spec:
-//   - All enum fields are stored as `String`; allowed values are enforced in the
-//     app layer (zod unions + the const unions in src/lib/enums.ts).
+// Datasource: PostgreSQL (works on Vercel / any hosted Postgres). DATABASE_URL
+// is set per-environment; locally you can point it at a local Postgres or a
+// hosted dev branch.
+//
+// NOTE on field encodings (carried over from the original SQLite design, kept
+// for app-code compatibility — the app reads/writes these shapes directly):
+//   - All "enum" fields are stored as `String`; allowed values are enforced in
+//     the app layer (zod unions + the const unions in src/lib/enums.ts).
 //   - Question.options is a JSON-encoded string ("[\"a\",\"b\",...]"), parsed via
 //     src/lib/questions.ts.
 //   - QuizAttempt.answers is a JSON-encoded string of
 //     [{ questionId, chosenIndex, correct }].
-// For production, switch the datasource provider to "postgresql"; you can then
-// promote these to native enums / arrays / Json columns.
+// Postgres also supports native enums / String[] / Json columns; promoting to
+// them is a future cleanup that would require touching the parsing code.
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
