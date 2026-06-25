@@ -20,9 +20,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env
+# local env (never commit secrets — covers .env, .env.local, .env.backup*, etc.)
 .env
-.env*.local
+.env.*
+!.env.example
 
 # database
 /prisma/dev.db
