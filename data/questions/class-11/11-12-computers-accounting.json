@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Which is a component of a computer system?",
+    "options": [
+      "Hardware",
+      "Goodwill",
+      "Capital",
+      "Depreciation"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "Hardware is a physical component of a computer system."
+  },
+  {
+    "question": "In a computerised system, data is stored in a:",
+    "options": [
+      "Ledger book",
+      "Database",
+      "Journal book",
+      "File cabinet"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "A database stores and manages the accounting data electronically."
+  },
+  {
+    "question": "An advantage of computerised accounting over manual accounting is:",
+    "options": [
+      "Higher arithmetic errors",
+      "Speed and accuracy",
+      "More paperwork",
+      "Slower reporting"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Computers process large volumes quickly and accurately."
+  },
+  {
+    "question": "MIS in accounting stands for:",
+    "options": [
+      "Money Information System",
+      "Management Information System",
+      "Manual Input System",
+      "Market Indexing System"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "MIS = Management Information System, providing information for decision-making."
+  },
+  {
+    "question": "A limitation of computerised accounting is:",
+    "options": [
+      "Speed",
+      "Cost of installation and training",
+      "Accuracy",
+      "Storage capacity"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "High initial cost of hardware, software and training is a limitation."
+  }
+]

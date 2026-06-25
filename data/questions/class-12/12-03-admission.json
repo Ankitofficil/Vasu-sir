@@ -1,0 +1,62 @@
+[
+  {
+    "question": "On admission, a new partner brings in capital and usually:",
+    "options": [
+      "Goodwill / premium",
+      "Drawings",
+      "Loans only",
+      "Nothing"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "A new partner typically brings capital and a share of goodwill (premium for goodwill)."
+  },
+  {
+    "question": "Sacrificing ratio is calculated on admission to determine:",
+    "options": [
+      "New capital",
+      "Share of goodwill given up by old partners",
+      "Bank balance",
+      "Drawings"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Old partners sacrifice part of their share; goodwill is shared in the sacrificing ratio."
+  },
+  {
+    "question": "Premium for goodwill brought in by a new partner is shared by old partners in their:",
+    "options": [
+      "Old ratio",
+      "New ratio",
+      "Sacrificing ratio",
+      "Capital ratio"
+    ],
+    "correctIndex": 2,
+    "difficulty": "HARD",
+    "explanation": "Goodwill premium compensates the sacrifice, so it is divided in the sacrificing ratio."
+  },
+  {
+    "question": "General reserve existing at admission is distributed among old partners in the:",
+    "options": [
+      "New ratio",
+      "Old ratio",
+      "Gaining ratio",
+      "Sacrificing ratio"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Pre-existing reserves belong to old partners and are shared in the old ratio."
+  },
+  {
+    "question": "Revaluation Account is also known as the:",
+    "options": [
+      "Realisation Account",
+      "Profit and Loss Adjustment Account",
+      "Memorandum Account",
+      "Suspense Account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Revaluation Account is also called the Profit and Loss Adjustment Account."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Current ratio = Current assets / ",
+    "options": [
+      "Current liabilities",
+      "Total assets",
+      "Sales",
+      "Capital"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "Current ratio = Current Assets ÷ Current Liabilities."
+  },
+  {
+    "question": "The ideal current ratio is generally considered to be:",
+    "options": [
+      "1:1",
+      "2:1",
+      "3:2",
+      "1:2"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "A current ratio of 2:1 is conventionally treated as satisfactory."
+  },
+  {
+    "question": "Quick ratio excludes which item from current assets?",
+    "options": [
+      "Debtors",
+      "Cash",
+      "Inventory and prepaid expenses",
+      "Bank"
+    ],
+    "correctIndex": 2,
+    "difficulty": "MEDIUM",
+    "explanation": "Quick (liquid) assets exclude inventory and prepaid expenses, which are less liquid."
+  },
+  {
+    "question": "Debt-equity ratio measures:",
+    "options": [
+      "Liquidity",
+      "Long-term solvency",
+      "Profitability",
+      "Efficiency"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Debt-equity compares long-term debt to shareholders' funds — a solvency measure."
+  },
+  {
+    "question": "Gross profit ratio is calculated as (Gross profit / Net sales) ×",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "1"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Gross profit ratio = (Gross Profit ÷ Net Sales) × 100."
+  }
+]

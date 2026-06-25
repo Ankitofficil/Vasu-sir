@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Outstanding expenses are added to the related expense and shown as a:",
+    "options": [
+      "Current asset",
+      "Current liability",
+      "Fixed asset",
+      "Income"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Outstanding (unpaid) expenses are a liability at the balance sheet date."
+  },
+  {
+    "question": "Prepaid insurance is shown in the balance sheet as a:",
+    "options": [
+      "Liability",
+      "Current asset",
+      "Capital",
+      "Expense"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Prepaid expenses are an asset because the benefit relates to a future period."
+  },
+  {
+    "question": "Depreciation given in adjustments is:",
+    "options": [
+      "Credited to P&L only",
+      "Debited to P&L and deducted from the asset",
+      "Added to the asset",
+      "Ignored"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Depreciation is charged to P&L and reduces the book value of the asset in the balance sheet."
+  },
+  {
+    "question": "Interest on capital is treated as:",
+    "options": [
+      "An income of the business",
+      "An expense (charge against profit)",
+      "An asset",
+      "A liability of the owner"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Interest on capital is a business expense and is also added to the owner's capital."
+  },
+  {
+    "question": "Closing stock appearing as an adjustment is shown:",
+    "options": [
+      "Only in the trading account",
+      "Credit of trading account and asset in balance sheet",
+      "Only in balance sheet",
+      "In P&L only"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Closing stock is credited in the trading account and appears as a current asset."
+  }
+]

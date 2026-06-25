@@ -1,0 +1,111 @@
+// Prisma schema for Vasusir Accountancy coaching platform.
+//
+// NOTE on SQLite (dev DB): SQLite does not support Prisma scalar list fields
+// (`String[]`) OR native enums. Adaptations vs. the original spec:
+//   - All enum fields are stored as `String`; allowed values are enforced in the
+//     app layer (zod unions + the const unions in src/lib/enums.ts).
+//   - Question.options is a JSON-encoded string ("[\"a\",\"b\",...]"), parsed via
+//     src/lib/questions.ts.
+//   - QuizAttempt.answers is a JSON-encoded string of
+//     [{ questionId, chosenIndex, correct }].
+// For production, switch the datasource provider to "postgresql"; you can then
+// promote these to native enums / arrays / Json columns.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         String // STUDENT | STAFF
+  classOf      Int? // 11 or 12, null for staff
+  rollNo       String?  @unique
+  avatarUrl    String?
+  createdAt    DateTime @default(now())
+
+  attendance Attendance[]
+  feeRecords FeeRecord[]
+  attempts   QuizAttempt[]
+}
+
+model Attendance {
+  id        String   @id @default(cuid())
+  studentId String
+  date      DateTime
+  status    String // PRESENT | ABSENT | HOLIDAY
+  classOf   Int
+  markedBy  String
+  student   User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, date])
+  @@index([classOf, date])
+}
+
+model NoteMaterial {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  classOf     Int
+  chapterId   String
+  tag         String // NOTES | WORKSHEET | PYQ | REFERENCE
+  fileUrl     String
+  fileType    String
+  sizeKb      Int
+  uploadedBy  String
+  createdAt   DateTime @default(now())
+
+  @@index([classOf, chapterId])
+}
+
+model FeeRecord {
+  id          String    @id @default(cuid())
+  studentId   String
+  installment Int
+  amount      Int // stored in paise
+  dueDate     DateTime
+  paidOn      DateTime?
+  status      String // PAID | PENDING | OVERDUE
+  receiptUrl  String?
+  student     User      @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId])
+}
+
+model Question {
+  id           String @id @default(cuid())
+  classOf      Int
+  chapterId    String
+  question     String
+  options      String // JSON-encoded string[] of length 4
+  correctIndex Int
+  difficulty   String // EASY | MEDIUM | HARD
+  explanation  String
+  marks        Int    @default(1)
+
+  @@index([classOf, chapterId])
+}
+
+model QuizAttempt {
+  id           String   @id @default(cuid())
+  studentId    String
+  chapterId    String? // null = mixed
+  classOf      Int
+  score        Int
+  totalMarks   Int
+  timeTakenSec Int
+  points       Int      @default(0) // leaderboard points (see lib/scoring.ts)
+  answers      String // JSON-encoded [{ questionId, chosenIndex, correct }]
+  createdAt    DateTime @default(now())
+  student      User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId])
+  @@index([classOf, chapterId])
+}

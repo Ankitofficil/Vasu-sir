@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Depreciation is charged on:",
+    "options": [
+      "Current assets",
+      "Fixed (tangible) assets",
+      "Fictitious assets",
+      "Investments"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Depreciation is the systematic allocation of the cost of fixed tangible assets over their useful life."
+  },
+  {
+    "question": "Under the straight-line method, depreciation each year is:",
+    "options": [
+      "Increasing",
+      "Decreasing",
+      "Constant",
+      "Zero"
+    ],
+    "correctIndex": 2,
+    "difficulty": "EASY",
+    "explanation": "SLM charges a fixed, equal amount of depreciation every year."
+  },
+  {
+    "question": "The written-down value method charges depreciation on the:",
+    "options": [
+      "Original cost",
+      "Book value (reducing balance)",
+      "Scrap value",
+      "Market value"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "WDV applies a fixed rate to the diminishing book value, so the charge reduces each year."
+  },
+  {
+    "question": "A reserve is an appropriation of:",
+    "options": [
+      "Capital",
+      "Profit",
+      "Liabilities",
+      "Assets"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "A reserve is created out of profits to strengthen the financial position of the business."
+  },
+  {
+    "question": "Provision for doubtful debts is created in anticipation of:",
+    "options": [
+      "Bad debts",
+      "Extra profit",
+      "Tax refund",
+      "Asset sale"
+    ],
+    "correctIndex": 0,
+    "difficulty": "HARD",
+    "explanation": "It is a charge against profit to cover debts that may become irrecoverable."
+  }
+]

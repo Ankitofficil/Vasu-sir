@@ -1,0 +1,62 @@
+[
+  {
+    "question": "On dissolution, all assets and liabilities are transferred to the:",
+    "options": [
+      "Revaluation account",
+      "Realisation account",
+      "Capital account",
+      "Bank account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "A Realisation Account is opened to record the sale of assets and settlement of liabilities."
+  },
+  {
+    "question": "Profit or loss on realisation is shared by partners in their:",
+    "options": [
+      "Capital ratio",
+      "Profit-sharing ratio",
+      "Gaining ratio",
+      "Equally always"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Realisation profit/loss is divided in the profit-sharing ratio."
+  },
+  {
+    "question": "Garner v. Murray rule applies when a partner's capital account shows a:",
+    "options": [
+      "Credit balance",
+      "Deficiency (debit) and he is insolvent",
+      "Nil balance",
+      "Loan"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "The rule deals with how an insolvent partner's deficiency is borne by solvent partners (in capital ratio)."
+  },
+  {
+    "question": "In the order of payment on dissolution, outside creditors are paid:",
+    "options": [
+      "Last",
+      "Before partners' loans and capital",
+      "After capital",
+      "Never"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "External liabilities are settled first, then partners' loans, then capitals."
+  },
+  {
+    "question": "Realisation expenses are usually debited to the:",
+    "options": [
+      "Capital account",
+      "Realisation account",
+      "Bank account",
+      "P&L account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Expenses of realisation are charged to the realisation account."
+  }
+]

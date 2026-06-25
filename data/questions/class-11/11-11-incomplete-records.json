@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Accounts from incomplete records are commonly called the:",
+    "options": [
+      "Double-entry system",
+      "Single-entry system",
+      "Cost system",
+      "Mercantile system"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Incomplete records / single-entry maintain only some accounts, typically cash and personal accounts."
+  },
+  {
+    "question": "Under the statement of affairs method, profit is found by comparing:",
+    "options": [
+      "Opening and closing capital",
+      "Sales and purchases",
+      "Assets and sales",
+      "Cash and bank"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Profit = Closing capital − Opening capital (+ drawings − additional capital)."
+  },
+  {
+    "question": "A statement of affairs is similar to a:",
+    "options": [
+      "Trial balance",
+      "Balance sheet",
+      "Trading account",
+      "Journal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "It lists assets and liabilities to estimate capital, much like a balance sheet."
+  },
+  {
+    "question": "Additional capital introduced during the year is _____ when computing profit:",
+    "options": [
+      "Added to closing capital",
+      "Deducted from closing capital",
+      "Ignored",
+      "Added to drawings"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Additional capital must be deducted to avoid overstating profit."
+  },
+  {
+    "question": "Incomplete records are generally maintained by:",
+    "options": [
+      "Large companies",
+      "Small sole traders",
+      "Banks",
+      "Governments"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Small sole traders and partnerships often keep incomplete records due to limited resources."
+  }
+]

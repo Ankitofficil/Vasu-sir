@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A trial balance is prepared to check the:",
+    "options": [
+      "Profit of the business",
+      "Arithmetical accuracy of the ledger",
+      "Cash in hand",
+      "Market value of assets"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "A trial balance verifies that total debits equal total credits — the arithmetical accuracy of posting."
+  },
+  {
+    "question": "An error that does NOT affect the trial balance is:",
+    "options": [
+      "Wrong total of a subsidiary book",
+      "Error of complete omission",
+      "Posting to the wrong side",
+      "Wrong casting of an account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "A complete omission leaves out both debit and credit, so the trial balance still agrees."
+  },
+  {
+    "question": "A suspense account is opened when the trial balance:",
+    "options": [
+      "Agrees",
+      "Does not agree",
+      "Shows profit",
+      "Shows loss"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "When the trial balance does not tally, the difference is temporarily placed in a suspense account."
+  },
+  {
+    "question": "Treating a revenue expenditure as capital expenditure is an error of:",
+    "options": [
+      "Omission",
+      "Commission",
+      "Principle",
+      "Compensating"
+    ],
+    "correctIndex": 2,
+    "difficulty": "HARD",
+    "explanation": "Misclassifying capital and revenue items violates an accounting principle — an error of principle."
+  },
+  {
+    "question": "Closing stock usually appears:",
+    "options": [
+      "In the trial balance only",
+      "Outside the trial balance (as an adjustment)",
+      "On both sides",
+      "Never"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Closing stock is normally given as an adjustment outside the trial balance."
+  }
+]

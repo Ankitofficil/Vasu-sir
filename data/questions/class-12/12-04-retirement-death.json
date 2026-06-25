@@ -1,0 +1,62 @@
+[
+  {
+    "question": "On retirement, the outgoing partner's share is acquired by the:",
+    "options": [
+      "Bank",
+      "Remaining (continuing) partners",
+      "New partner only",
+      "Creditors"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "The continuing partners take over the retiring partner's share, hence a gaining ratio is computed."
+  },
+  {
+    "question": "Gaining ratio = ",
+    "options": [
+      "Old ratio − New ratio",
+      "New ratio − Old ratio",
+      "Old + New",
+      "Equal"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Gaining ratio = New share − Old share of the continuing partners."
+  },
+  {
+    "question": "On the death of a partner, his share of profit till the date of death is usually based on:",
+    "options": [
+      "Last year's balance sheet",
+      "Time or sales basis",
+      "Bank balance",
+      "Drawings"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "The deceased's profit share is estimated on a time basis or sales basis as per the deed."
+  },
+  {
+    "question": "The amount due to a retiring partner, if not paid, is transferred to his:",
+    "options": [
+      "Capital account only",
+      "Loan account",
+      "Drawings account",
+      "Reserve"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Unpaid balance is transferred to the retiring partner's loan account and carries interest."
+  },
+  {
+    "question": "Goodwill of the retiring partner is borne by continuing partners in their:",
+    "options": [
+      "Old ratio",
+      "Gaining ratio",
+      "Sacrificing ratio",
+      "Capital ratio"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Continuing partners compensate the retiring partner for goodwill in the gaining ratio."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "On a change in profit-sharing ratio, the gaining partner compensates the:",
+    "options": [
+      "Bank",
+      "Sacrificing partner",
+      "Government",
+      "Creditors"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "The gaining partner compensates the sacrificing partner, usually for goodwill."
+  },
+  {
+    "question": "Sacrificing ratio = ",
+    "options": [
+      "New ratio − Old ratio",
+      "Old ratio − New ratio",
+      "Old ratio + New ratio",
+      "New ratio × Old ratio"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Sacrificing ratio = Old share − New share."
+  },
+  {
+    "question": "Accumulated profits on change of ratio are distributed in the:",
+    "options": [
+      "New ratio",
+      "Old ratio",
+      "Gaining ratio",
+      "Equal ratio"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Reserves and accumulated profits belong to the period before the change, so they go in the old ratio."
+  },
+  {
+    "question": "A change in PSR is a form of:",
+    "options": [
+      "Dissolution",
+      "Reconstitution of partnership",
+      "Amalgamation",
+      "Liquidation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Any change in the relationship among existing partners reconstitutes the firm."
+  },
+  {
+    "question": "Revaluation of assets on change of ratio is recorded in the:",
+    "options": [
+      "Trading account",
+      "Revaluation account",
+      "Bank account",
+      "Drawings account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Gains/losses on revaluation are recorded in the revaluation account and shared in the old ratio."
+  }
+]

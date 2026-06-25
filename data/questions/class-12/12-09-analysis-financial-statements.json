@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Comparative statements show data for:",
+    "options": [
+      "One year only",
+      "Two or more years for comparison",
+      "Competitors",
+      "The future"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Comparative statements present figures for two or more periods side by side."
+  },
+  {
+    "question": "In a common-size income statement, each item is expressed as a percentage of:",
+    "options": [
+      "Total assets",
+      "Net sales (revenue from operations)",
+      "Capital",
+      "Net profit"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Common-size income statements express items as a percentage of revenue from operations."
+  },
+  {
+    "question": "Horizontal analysis is another name for:",
+    "options": [
+      "Common-size analysis",
+      "Comparative (trend) analysis",
+      "Ratio analysis",
+      "Cash flow"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Horizontal analysis compares figures across periods — i.e., comparative/trend analysis."
+  },
+  {
+    "question": "A limitation of financial statement analysis is that it:",
+    "options": [
+      "Ignores qualitative factors",
+      "Is always accurate",
+      "Predicts the future perfectly",
+      "Requires no judgement"
+    ],
+    "correctIndex": 0,
+    "difficulty": "HARD",
+    "explanation": "Analysis is based on historical monetary data and ignores qualitative/non-monetary factors."
+  },
+  {
+    "question": "Common-size balance sheet expresses each item as a percentage of:",
+    "options": [
+      "Net sales",
+      "Total of balance sheet",
+      "Net profit",
+      "Capital"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "In a common-size balance sheet, items are shown as a percentage of total assets / total of the balance sheet."
+  }
+]

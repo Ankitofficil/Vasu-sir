@@ -1,0 +1,62 @@
+[
+  {
+    "question": "The person who draws a bill of exchange is the:",
+    "options": [
+      "Drawee",
+      "Drawer",
+      "Payee",
+      "Endorsee"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "The drawer is the maker (creditor) who draws the bill on the debtor (drawee)."
+  },
+  {
+    "question": "The period of three extra days added to the due date of a bill is called:",
+    "options": [
+      "Grace days",
+      "Maturity gap",
+      "Holiday",
+      "Tenure"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Three days of grace are added to determine the legal date of maturity."
+  },
+  {
+    "question": "Discounting a bill with the bank means:",
+    "options": [
+      "Cancelling it",
+      "Encashing it before maturity at a deduction",
+      "Endorsing it",
+      "Renewing it"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Discounting converts the bill into cash before maturity; the bank deducts a discount charge."
+  },
+  {
+    "question": "Noting charges are incurred when a bill is:",
+    "options": [
+      "Accepted",
+      "Discounted",
+      "Dishonoured",
+      "Endorsed"
+    ],
+    "correctIndex": 2,
+    "difficulty": "HARD",
+    "explanation": "On dishonour, the bill may be noted by a notary public; the noting charges are borne ultimately by the drawee."
+  },
+  {
+    "question": "Acceptance of a bill makes the drawee:",
+    "options": [
+      "A creditor",
+      "Liable to pay on maturity",
+      "A guarantor only",
+      "Free from liability"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "By accepting, the drawee agrees to pay the amount on the due date."
+  }
+]

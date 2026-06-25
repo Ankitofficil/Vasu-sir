@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Posting refers to transferring entries from the journal to the:",
+    "options": [
+      "Trial balance",
+      "Ledger",
+      "Cash book",
+      "Balance sheet"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Posting is the transfer of journal entries to the relevant ledger accounts."
+  },
+  {
+    "question": "A cash book records:",
+    "options": [
+      "Only credit transactions",
+      "Only cash and bank transactions",
+      "All non-cash transactions",
+      "Only purchases"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "The cash book records all cash and bank receipts and payments."
+  },
+  {
+    "question": "A contra entry appears in which type of cash book?",
+    "options": [
+      "Single column",
+      "Double column (cash & bank)",
+      "Petty cash book",
+      "Sales book"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Contra entries (cash to bank or vice versa) appear in a two/three-column cash book affecting both cash and bank columns."
+  },
+  {
+    "question": "The petty cash book is usually maintained under the:",
+    "options": [
+      "Imprest system",
+      "Double-entry only",
+      "Single-entry only",
+      "Cost system"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Under the imprest system, the petty cashier is reimbursed for the amount spent, restoring a fixed float."
+  },
+  {
+    "question": "The balance of the cash column of a cash book can be:",
+    "options": [
+      "Debit or nil",
+      "Always credit",
+      "Credit or nil",
+      "Always debit and never nil"
+    ],
+    "correctIndex": 0,
+    "difficulty": "HARD",
+    "explanation": "Cash on hand can never be negative, so the cash column shows a debit balance or nil."
+  }
+]

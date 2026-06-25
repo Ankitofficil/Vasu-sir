@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Accounting is often called the:",
+    "options": [
+      "Language of business",
+      "Science of money",
+      "Art of selling",
+      "Law of trade"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "Accounting communicates the financial results and position of a business, hence the 'language of business'."
+  },
+  {
+    "question": "Which of the following is an internal user of accounting information?",
+    "options": [
+      "Investors",
+      "Tax authorities",
+      "Management",
+      "Creditors"
+    ],
+    "correctIndex": 2,
+    "difficulty": "EASY",
+    "explanation": "Management uses accounting information internally for planning and control; the others are external users."
+  },
+  {
+    "question": "Book-keeping is mainly concerned with:",
+    "options": [
+      "Recording of transactions",
+      "Interpreting results",
+      "Designing reports",
+      "Auditing accounts"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "Book-keeping is the recording of financial transactions; analysis and interpretation come later in accounting."
+  },
+  {
+    "question": "The qualitative characteristic that requires accounting information to be free from material error is:",
+    "options": [
+      "Comparability",
+      "Reliability",
+      "Relevance",
+      "Timeliness"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Reliability means the information is verifiable and free from material error and bias."
+  },
+  {
+    "question": "Which is NOT a sub-field of accounting?",
+    "options": [
+      "Financial accounting",
+      "Cost accounting",
+      "Management accounting",
+      "Civil accounting"
+    ],
+    "correctIndex": 3,
+    "difficulty": "MEDIUM",
+    "explanation": "Civil accounting is not a recognised branch; the recognised ones are financial, cost and management accounting."
+  }
+]

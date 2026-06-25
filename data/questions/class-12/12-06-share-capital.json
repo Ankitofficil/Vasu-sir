@@ -1,0 +1,62 @@
+[
+  {
+    "question": "The portion of authorised capital offered to the public is the:",
+    "options": [
+      "Issued capital",
+      "Reserve capital",
+      "Paid-up capital",
+      "Called-up capital"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "Issued capital is the part of authorised capital offered for subscription."
+  },
+  {
+    "question": "When shares are issued at a price above face value, the excess is credited to:",
+    "options": [
+      "Capital reserve",
+      "Securities premium",
+      "General reserve",
+      "P&L"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "The premium on issue is credited to the Securities Premium account."
+  },
+  {
+    "question": "Forfeiture of shares results in:",
+    "options": [
+      "Refund of full money",
+      "Cancellation of shares for non-payment of calls",
+      "Bonus issue",
+      "Buy-back"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Shares are forfeited when the allottee fails to pay calls; previously received amount is retained."
+  },
+  {
+    "question": "Securities premium can be used for:",
+    "options": [
+      "Paying dividends",
+      "Issuing fully paid bonus shares",
+      "Paying salaries",
+      "Buying stock"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Section 52 permits using securities premium for bonus shares, writing off preliminary expenses, etc."
+  },
+  {
+    "question": "When applications exceed shares offered, the situation is called:",
+    "options": [
+      "Under-subscription",
+      "Over-subscription",
+      "Forfeiture",
+      "Calls in arrears"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Over-subscription occurs when applications received exceed the number of shares issued."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A Bank Reconciliation Statement reconciles the cash book balance with the:",
+    "options": [
+      "Trial balance",
+      "Pass book / bank statement",
+      "Profit & loss account",
+      "Petty cash"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "A BRS explains differences between the cash book (bank column) and the pass book balance."
+  },
+  {
+    "question": "A cheque issued but not yet presented for payment causes the pass book balance to be:",
+    "options": [
+      "Lower than cash book",
+      "Higher than cash book",
+      "Equal to cash book",
+      "Zero"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Until presented, the bank has not deducted it, so the pass book shows a higher balance than the cash book."
+  },
+  {
+    "question": "Bank charges debited by the bank but not recorded in the cash book will make the cash book balance:",
+    "options": [
+      "Higher than pass book",
+      "Lower than pass book",
+      "Equal",
+      "Negative"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "The bank reduced the balance for charges; the cash book hasn't, so the cash book shows a higher balance."
+  },
+  {
+    "question": "Interest allowed by the bank, not yet entered in the cash book, makes the pass book balance:",
+    "options": [
+      "Lower",
+      "Higher",
+      "Equal",
+      "Nil"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Interest credited by the bank increases the pass book balance relative to the cash book."
+  },
+  {
+    "question": "BRS is prepared by the:",
+    "options": [
+      "Bank",
+      "Account holder (customer)",
+      "Auditor",
+      "Government"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "The account holder prepares the BRS to reconcile their records with the bank's."
+  }
+]

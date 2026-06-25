@@ -1,0 +1,62 @@
+[
+  {
+    "question": "The rule for a personal account is:",
+    "options": [
+      "Debit what comes in, credit what goes out",
+      "Debit the receiver, credit the giver",
+      "Debit all expenses, credit all incomes",
+      "Debit losses, credit gains"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "For personal accounts: debit the receiver, credit the giver."
+  },
+  {
+    "question": "Goods purchased for cash are recorded by debiting:",
+    "options": [
+      "Cash A/c",
+      "Purchases A/c",
+      "Sales A/c",
+      "Capital A/c"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Purchases A/c is debited (goods come in) and Cash A/c is credited."
+  },
+  {
+    "question": "The book of original entry is the:",
+    "options": [
+      "Ledger",
+      "Trial balance",
+      "Journal",
+      "Balance sheet"
+    ],
+    "correctIndex": 2,
+    "difficulty": "EASY",
+    "explanation": "Transactions are first recorded in the journal, the book of original entry."
+  },
+  {
+    "question": "A short explanation written below each journal entry is called the:",
+    "options": [
+      "Folio",
+      "Narration",
+      "Voucher",
+      "Ledger"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "The narration briefly explains the nature of the transaction."
+  },
+  {
+    "question": "Salary paid in cash is recorded as: debit Salary A/c, credit:",
+    "options": [
+      "Capital A/c",
+      "Cash A/c",
+      "Bank A/c",
+      "Drawings A/c"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Salary is an expense (debited) and cash goes out (credited)."
+  }
+]

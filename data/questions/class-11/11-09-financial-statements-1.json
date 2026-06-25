@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Gross profit is the difference between net sales and:",
+    "options": [
+      "Operating expenses",
+      "Cost of goods sold",
+      "Net profit",
+      "Capital"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Gross profit = Net sales − Cost of goods sold."
+  },
+  {
+    "question": "Which account is prepared to ascertain net profit?",
+    "options": [
+      "Trading account",
+      "Profit & loss account",
+      "Balance sheet",
+      "Cash book"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Net profit is found in the profit & loss account after charging indirect expenses."
+  },
+  {
+    "question": "A balance sheet shows the financial position as on a:",
+    "options": [
+      "Particular date",
+      "Period of time",
+      "Future date",
+      "Range of dates"
+    ],
+    "correctIndex": 0,
+    "difficulty": "EASY",
+    "explanation": "A balance sheet is a statement of assets and liabilities at a particular point in time."
+  },
+  {
+    "question": "Carriage inwards is shown in the:",
+    "options": [
+      "Trading account (debit)",
+      "P&L account (credit)",
+      "Balance sheet asset side",
+      "Capital account"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Carriage inwards is a direct expense and is debited in the trading account."
+  },
+  {
+    "question": "Assets are usually arranged in a balance sheet in order of:",
+    "options": [
+      "Cost",
+      "Liquidity or permanence",
+      "Alphabet",
+      "Size"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Assets may be listed in order of liquidity or permanence."
+  }
+]

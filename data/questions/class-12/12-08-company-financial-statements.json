@@ -1,0 +1,62 @@
+[
+  {
+    "question": "The format of a company balance sheet is prescribed by:",
+    "options": [
+      "Schedule III of the Companies Act, 2013",
+      "Income Tax Act",
+      "RBI Act",
+      "SEBI only"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Schedule III prescribes the vertical format for the company balance sheet and statement of P&L."
+  },
+  {
+    "question": "Under Schedule III, 'Share Capital' is shown under:",
+    "options": [
+      "Current liabilities",
+      "Shareholders' funds (Equity & Liabilities)",
+      "Non-current assets",
+      "Current assets"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Share capital appears under Shareholders' Funds on the Equity and Liabilities side."
+  },
+  {
+    "question": "Trade payables are classified as:",
+    "options": [
+      "Non-current assets",
+      "Current liabilities",
+      "Reserves",
+      "Fixed assets"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Trade payables (creditors) are current liabilities."
+  },
+  {
+    "question": "Goodwill in a company balance sheet is shown under:",
+    "options": [
+      "Current assets",
+      "Non-current assets (intangible)",
+      "Reserves",
+      "Current liabilities"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Goodwill is an intangible asset under non-current assets."
+  },
+  {
+    "question": "The company balance sheet is prepared in a:",
+    "options": [
+      "Horizontal format",
+      "Vertical format",
+      "T-format",
+      "Circular format"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Schedule III prescribes a vertical (statement) format."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "The convention that anticipates no profit but provides for all possible losses is:",
+    "options": [
+      "Consistency",
+      "Conservatism (Prudence)",
+      "Full disclosure",
+      "Materiality"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Conservatism / prudence records all probable losses but recognises gains only when realised."
+  },
+  {
+    "question": "Under the going concern assumption, a business is assumed to:",
+    "options": [
+      "Close down soon",
+      "Continue for the foreseeable future",
+      "Sell all assets",
+      "Merge with another"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Going concern assumes the enterprise will continue operating for the foreseeable future."
+  },
+  {
+    "question": "The principle that revenue is recognised when it is earned is the:",
+    "options": [
+      "Matching principle",
+      "Revenue recognition principle",
+      "Cost principle",
+      "Dual aspect"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Revenue recognition (realisation) recognises revenue when goods/services are transferred, not when cash is received."
+  },
+  {
+    "question": "GST is an example of which type of tax?",
+    "options": [
+      "Direct tax",
+      "Indirect tax",
+      "Wealth tax",
+      "Capital tax"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "GST is an indirect tax levied on the supply of goods and services."
+  },
+  {
+    "question": "The accounting concept that every transaction has two aspects is:",
+    "options": [
+      "Money measurement",
+      "Dual aspect",
+      "Accrual",
+      "Materiality"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Dual aspect is the foundation of double-entry: every debit has an equal credit."
+  }
+]

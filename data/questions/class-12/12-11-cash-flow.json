@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A cash flow statement is prepared as per:",
+    "options": [
+      "AS-3 / Ind AS-7",
+      "AS-10",
+      "AS-2",
+      "AS-6"
+    ],
+    "correctIndex": 0,
+    "difficulty": "MEDIUM",
+    "explanation": "Cash flow statements follow AS-3 (Revised) / Ind AS-7."
+  },
+  {
+    "question": "Purchase of fixed assets is an example of:",
+    "options": [
+      "Operating activity",
+      "Investing activity",
+      "Financing activity",
+      "Cash equivalent"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Buying/selling long-term assets is an investing activity."
+  },
+  {
+    "question": "Issue of shares for cash is classified under:",
+    "options": [
+      "Operating activities",
+      "Investing activities",
+      "Financing activities",
+      "None"
+    ],
+    "correctIndex": 2,
+    "difficulty": "MEDIUM",
+    "explanation": "Raising funds from owners/lenders is a financing activity."
+  },
+  {
+    "question": "Under the indirect method, depreciation is _____ to net profit:",
+    "options": [
+      "Subtracted",
+      "Added back",
+      "Ignored",
+      "Multiplied"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Depreciation is a non-cash expense, so it is added back to net profit under the indirect method."
+  },
+  {
+    "question": "Cash and cash equivalents include:",
+    "options": [
+      "Fixed deposits over 1 year",
+      "Cash, bank and short-term highly liquid investments",
+      "Land",
+      "Goodwill"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Cash equivalents are short-term, highly liquid investments readily convertible to known cash amounts."
+  }
+]

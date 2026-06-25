@@ -1,0 +1,62 @@
+[
+  {
+    "question": "A debenture is a:",
+    "options": [
+      "Share of ownership",
+      "Acknowledgement of debt",
+      "Type of reserve",
+      "Bank account"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "A debenture is a written acknowledgement of debt issued by a company, usually carrying fixed interest."
+  },
+  {
+    "question": "Interest on debentures is a:",
+    "options": [
+      "Appropriation of profit",
+      "Charge against profit",
+      "Dividend",
+      "Reserve"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Debenture interest is a charge against profit and is payable whether or not the company earns profit."
+  },
+  {
+    "question": "Loss on issue of debentures is a:",
+    "options": [
+      "Capital profit",
+      "Capital loss to be written off",
+      "Revenue income",
+      "Reserve"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Loss on issue (e.g., issued at discount/redeemable at premium) is a capital loss written off over time."
+  },
+  {
+    "question": "Debentures issued as collateral security are:",
+    "options": [
+      "Always recorded as a liability",
+      "A secondary/supporting security for a loan",
+      "Equity shares",
+      "Bonus shares"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Collateral debentures act as additional security and become enforceable only if the main loan defaults."
+  },
+  {
+    "question": "Debenture holders are:",
+    "options": [
+      "Owners of the company",
+      "Creditors of the company",
+      "Employees",
+      "Promoters"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Debenture holders are creditors, not owners, and have no voting rights."
+  }
+]

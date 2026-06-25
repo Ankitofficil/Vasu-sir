@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Readymade accounting software is suitable for:",
+    "options": [
+      "Very large specialised firms",
+      "Small organisations with standard needs",
+      "Banks only",
+      "Governments only"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Readymade software fits small businesses whose requirements are common and standard."
+  },
+  {
+    "question": "Tally is an example of:",
+    "options": [
+      "Operating system",
+      "Accounting software",
+      "Spreadsheet",
+      "Web browser"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Tally is widely used accounting software."
+  },
+  {
+    "question": "Grouping of accounts in computerised accounting is done through:",
+    "options": [
+      "Vouchers",
+      "Ledgers and groups",
+      "Narrations",
+      "Folios"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Accounts are organised into groups/ledgers for classification and reporting."
+  },
+  {
+    "question": "Customised software is generally:",
+    "options": [
+      "Cheaper than readymade",
+      "Developed to meet specific user needs",
+      "Free",
+      "Standard for all"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Customised software is tailored to the specific requirements of the organisation."
+  },
+  {
+    "question": "A voucher in accounting software is used to:",
+    "options": [
+      "Print reports",
+      "Record a transaction",
+      "Backup data",
+      "Format the screen"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Vouchers are used to enter and record transactions."
+  }
+]

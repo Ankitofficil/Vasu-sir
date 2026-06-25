@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Accountancy coaching palette (see THEME.md) — Petrol Teal brand,
+       Brass Gold accent, Warm Slate neutrals. Two brand colours, one accent. */
+
+    /* Surfaces — Warm Slate / Paper */
+    --background: 60 11% 97%; /* Paper #F8F8F6 */
+    --foreground: 40 11% 10%; /* Ink #1C1A17 */
+
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 40 11% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 40 11% 10%;
+
+    /* Brand — Petrol Teal #0E4651 */
+    --primary: 190 70% 19%;
+    --primary-foreground: 48 12% 94%; /* on-dark ink #F0EFEC */
+    --primary-hover: 190 64% 23%; /* #155560 */
+    --primary-deep: 191 78% 11%; /* Ink Teal #062730 */
+
+    /* Secondary surface — Teal-50 band #ECF4F5 */
+    --secondary: 185 30% 94%;
+    --secondary-foreground: 190 70% 19%;
+
+    /* Muted — warm slate */
+    --muted: 48 13% 93%; /* slate-100 #F0EFEC */
+    --muted-foreground: 40 8% 49%; /* #847F75 */
+    --body: 42 8% 27%; /* readable secondary text #4A4740 (above muted floor) */
+
+    /* Accent — Brass Gold #D2A24A (the single premium pop) */
+    --accent: 38 60% 56%;
+    --accent-foreground: 191 78% 11%; /* ink teal text on gold */
+    --accent-hover: 38 56% 48%; /* #BE8C36 */
+    --accent-text: 38 57% 39%; /* Antique Brass #9E722C — gold as text on light */
+
+    /* Neutral interaction surface — ghost/menu/nav hovers (NOT the gold accent) */
+    --hover: 48 13% 93%; /* warm slate-100 */
+    --hover-foreground: 40 11% 10%;
+
+    --destructive: 5 59% 44%; /* Error #B23A2E */
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 151 46% 33%; /* #2E7D5B */
+    --success-foreground: 0 0% 100%;
+
+    --warning: 29 86% 41%; /* #C2620E */
+    --warning-foreground: 0 0% 100%;
+
+    --info: 203 56% 39%; /* #2C6E9B */
+    --info-foreground: 0 0% 100%;
+
+    --border: 45 12% 86%; /* Hairline #E2E0DB */
+    --input: 45 12% 86%;
+    --ring: 38 60% 56%; /* Brass Gold focus glint */
+
+    --radius: 0.5rem;
+
+    /* Elevation shadow — warm ink */
+    --shadow-color: 40 30% 12%;
+  }
+
+  .dark {
+    /* Deep teal-tinted dark (not pure black). Teal/gold brighten for legibility. */
+    --background: 191 60% 10%; /* #0A2228 */
+    --foreground: 48 12% 93%; /* #F0EFEC */
+
+    --card: 191 59% 13%; /* #0E2E36 */
+    --card-foreground: 48 12% 93%;
+
+    --popover: 191 59% 13%;
+    --popover-foreground: 48 12% 93%;
+
+    /* Brand — Teal-300 #6FA8AF, legible on dark */
+    --primary: 186 24% 56%;
+    --primary-foreground: 191 78% 11%;
+    --primary-hover: 186 31% 72%; /* #A3C8CD */
+    --primary-deep: 191 78% 11%;
+
+    --secondary: 190 58% 17%; /* surface-tint #123A43 */
+    --secondary-foreground: 48 12% 93%;
+
+    --muted: 190 58% 17%;
+    --muted-foreground: 43 9% 78%; /* lifted to body #CBC8C1 for AA on dark */
+    --body: 43 9% 84%; /* readable secondary text on dark (above muted) */
+
+    /* Accent — Gold-300 #DDB868, brighter for dark */
+    --accent: 38 64% 64%;
+    --accent-foreground: 191 78% 11%;
+    --accent-hover: 38 64% 76%; /* #EAD29D */
+    --accent-text: 38 64% 64%; /* gold is fine as text on dark */
+
+    /* Neutral interaction surface */
+    --hover: 190 58% 17%;
+    --hover-foreground: 48 12% 93%;
+
+    --destructive: 5 55% 52%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 151 40% 46%;
+    --success-foreground: 191 60% 10%;
+
+    --warning: 29 70% 52%;
+    --warning-foreground: 191 60% 10%;
+
+    --info: 203 50% 56%;
+    --info-foreground: 191 60% 10%;
+
+    --border: 191 45% 22%; /* #1E4750 */
+    --input: 191 45% 22%;
+    --ring: 38 64% 64%;
+
+    --shadow-color: 191 80% 3%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  /* Display serif for headings — soft authority (THEME.md). */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Numeric / monospace emphasis */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Eyebrow / label — Inter 500, accent-text, uppercase, tracked (THEME.md). */
+.eyebrow {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: hsl(var(--accent-text));
+}
+
+@layer utilities {
+  /* ---- Brand surfaces (solid, no gradients) ---- */
+  .brand-gradient {
+    background-color: hsl(var(--primary));
+  }
+  .brand-gradient-soft {
+    background-color: hsl(var(--secondary));
+  }
+  /* Heading emphasis — solid primary, no gradient fill */
+  .text-gradient {
+    color: hsl(var(--primary));
+  }
+  .dark .text-gradient {
+    color: hsl(var(--foreground));
+  }
+
+  /* ---- Depth — restrained, neutral ---- */
+  .shadow-elevated {
+    box-shadow:
+      0 1px 2px -1px hsl(var(--shadow-color) / 0.08),
+      0 4px 12px -6px hsl(var(--shadow-color) / 0.1);
+  }
+  /* Legacy alias kept calm so any stray usage stays subtle */
+  .shadow-glow {
+    box-shadow:
+      0 1px 2px -1px hsl(var(--shadow-color) / 0.08),
+      0 4px 12px -6px hsl(var(--shadow-color) / 0.1);
+  }
+
+  /* ---- Ambient backgrounds (neutralised) ---- */
+  .aurora {
+    position: relative;
+    isolation: isolate;
+  }
+  .grid-texture {
+    background-image: none;
+  }
+}

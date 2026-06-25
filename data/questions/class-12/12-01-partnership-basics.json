@@ -1,0 +1,62 @@
+[
+  {
+    "question": "In the absence of a partnership deed, profits are shared:",
+    "options": [
+      "In capital ratio",
+      "Equally",
+      "By seniority",
+      "As decided by court"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "Without a deed, the Partnership Act requires profits to be shared equally."
+  },
+  {
+    "question": "In the absence of an agreement, interest on a partner's loan to the firm is:",
+    "options": [
+      "0%",
+      "6% p.a.",
+      "10% p.a.",
+      "12% p.a."
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "The Act allows interest on a partner's loan at 6% p.a. when the deed is silent."
+  },
+  {
+    "question": "Interest on capital, when allowed, is:",
+    "options": [
+      "A charge against profit always",
+      "An appropriation of profit",
+      "An asset",
+      "Income of the firm"
+    ],
+    "correctIndex": 1,
+    "difficulty": "MEDIUM",
+    "explanation": "Interest on capital is generally an appropriation of profit unless the deed treats it as a charge."
+  },
+  {
+    "question": "The Profit & Loss Appropriation Account is prepared to:",
+    "options": [
+      "Find gross profit",
+      "Distribute net profit among partners",
+      "Record purchases",
+      "Compute depreciation"
+    ],
+    "correctIndex": 1,
+    "difficulty": "EASY",
+    "explanation": "It shows how net profit is appropriated — salary, interest on capital, share of profit, etc."
+  },
+  {
+    "question": "When capitals are fixed, the current account records:",
+    "options": [
+      "Only fresh capital",
+      "Drawings, interest, salary and share of profit",
+      "Only losses",
+      "Nothing"
+    ],
+    "correctIndex": 1,
+    "difficulty": "HARD",
+    "explanation": "Under fixed capitals, all adjustments go through the current account, leaving capital unchanged."
+  }
+]
